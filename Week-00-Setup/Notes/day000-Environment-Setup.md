@@ -70,8 +70,7 @@ Main responsibilities:
 Flow of execution:
 
 ```markdown
-Java Code (.java) → Compiler (javac) → Bytecode (.class) → JVM → Machine
-Execution
+Java Code (.java) → Compiler (javac) → Bytecode (.class) → JVM → Machine Execution
 ```
 ---
 
@@ -160,7 +159,7 @@ Git will be used for version control and tracking progress.
 
 Verify Git installation:
 
-``` bash
+```bash
 git --version
 ```
 
@@ -170,40 +169,6 @@ Configure Git username and email:
 git config --global user.name "Silver Bullet"
 git config --global user.email "aahishsingh2000@outlook.com"
 ```
-
----
-
-## Repository Structure
-
-This project follows a structured learning format:
-
-```markdown
-java-fullstack-journey
-│
-├── week-00-setup
-│   └── notes
-│       └── day0-environment-setup.md
-│
-├── week-01-core-java
-├── week-02-collections-jdbc
-├── week-03-servlets-web
-├── week-04-spring-core
-├── week-05-spring-boot-rest
-├── week-06-security-git
-├── week-07-javascript
-├── week-08-typescript
-├── week-09-angular
-│
-├── projects
-└── resources
-```
-
-
-Each week will contain:
-
-* Notes explaining concepts
-* Code examples for practice
-
 ---
 
 ## Day 0 Summary
