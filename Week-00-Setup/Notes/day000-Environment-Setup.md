@@ -1,11 +1,11 @@
-# Day 0 -- Environment Setup
+# Day0 — Environment Setup
 
 Before starting the Java Fullstack journey, the first step is preparing
 the development environment.  
 This ensures that all required tools are installed and working correctly
 so that coding and learning can proceed smoothly.
 
-\---
+---
 
 ## Why Java for Fullstack Development?
 
@@ -26,7 +26,7 @@ Java is also commonly used for building:
 * Microservices
 * Enterprise backend systems
 
-\---
+---
 
 ## Java Architecture
 
@@ -42,7 +42,7 @@ It includes:
 * Java runtime environment
 * Development tools
 
-\---
+---
 
 ### JRE (Java Runtime Environment)
 
@@ -54,7 +54,7 @@ It contains:
 * Core Java libraries
 * Runtime components
 
-\---
+---
 
 ### JVM (Java Virtual Machine)
 
@@ -69,10 +69,11 @@ Main responsibilities:
 
 Flow of execution:
 
+```markdown
 Java Code (.java) → Compiler (javac) → Bytecode (.class) → JVM → Machine
 Execution
-
-\---
+```
+---
 
 ## Installing Java
 
@@ -91,10 +92,11 @@ java -version
 
 Example output:
 
-&#x20;   java version "21.0.x"
+```bash
+java version "21.0.x"
+```
 
-
-\---
+---
 
 ## IntelliJ IDEA Setup
 
@@ -110,27 +112,30 @@ Steps:
 
 Example structure:
 
-&#x20;   project-name
-     ├─ src
-     │   └─ Main.java
-     └─ .idea
+```markdown
+project-name
+├─ src
+│   └─ Main.java
+└─ .idea
+```
 
-
-\---
+---
 
 ## First Java Program
 
 Create a file called:
 
-&#x20;   HelloWorld.java
 
+```markdown
+HelloWorld.java
+```
 
 Example program:
 
 ``` java
 public class HelloWorld {
 
-    public static void main(String\[] args) {
+    public static void main(String\\\[] args) {
 
         System.out.println("Java Fullstack Journey Begins!");
 
@@ -143,10 +148,11 @@ Run the program to confirm that Java is working correctly.
 
 Expected output:
 
-&#x20;   Java Fullstack Journey Begins!
+```bash
+Java Fullstack Journey Begins!
+```
 
-
-\---
+---
 
 ## Git Setup
 
@@ -160,35 +166,37 @@ git --version
 
 Configure Git username and email:
 
-``` bash
+```bash
 git config --global user.name "Silver Bullet"
-git config --global user.email "your-email@example.com"
+git config --global user.email "aahishsingh2000@outlook.com"
 ```
 
-\---
+---
 
 ## Repository Structure
 
 This project follows a structured learning format:
 
-&#x20;   java-fullstack-journey
-    │
-    ├── week-00-setup
-    │   └── notes
-    │       └── day0-environment-setup.md
-    │
-    ├── week-01-core-java
-    ├── week-02-collections-jdbc
-    ├── week-03-servlets-web
-    ├── week-04-spring-core
-    ├── week-05-spring-boot-rest
-    ├── week-06-security-git
-    ├── week-07-javascript
-    ├── week-08-typescript
-    ├── week-09-angular
-    │
-    ├── projects
-    └── resources
+```markdown
+java-fullstack-journey
+│
+├── week-00-setup
+│   └── notes
+│       └── day0-environment-setup.md
+│
+├── week-01-core-java
+├── week-02-collections-jdbc
+├── week-03-servlets-web
+├── week-04-spring-core
+├── week-05-spring-boot-rest
+├── week-06-security-git
+├── week-07-javascript
+├── week-08-typescript
+├── week-09-angular
+│
+├── projects
+└── resources
+```
 
 
 Each week will contain:
@@ -196,7 +204,7 @@ Each week will contain:
 * Notes explaining concepts
 * Code examples for practice
 
-\---
+---
 
 ## Day 0 Summary
 
