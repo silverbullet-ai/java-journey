@@ -94,6 +94,9 @@ Recommended versions:
 - Java 17 (LTS)
 - Java 21 (Latest LTS)
 
+**LTS (Long Term Support)** versions receive updates, bug fixes, and security patches for a longer period of time.  
+These versions are recommended for production and enterprise applications.
+
 ## Step 1 – Download Java
 
 Visit:
