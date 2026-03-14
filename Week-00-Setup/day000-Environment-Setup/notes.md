@@ -72,16 +72,17 @@ Flow of execution:
 ```markdown
 Java Code (.java) → Compiler (javac) → Bytecode (.class) → JVM → Machine Execution
 ```
+
 ---
 
 # Required Tools
 
 For this journey we need the following tools:
 
-- Java (JDK)
-- Git
-- IntelliJ IDEA
-- A terminal or command prompt
+* Java (JDK)
+* Git
+* IntelliJ IDEA
+* A terminal or command prompt
 
 ---
 
@@ -91,8 +92,8 @@ Java Development Kit (JDK) is required to write and run Java programs.
 
 Recommended versions:
 
-- Java 17 (LTS)
-- Java 21 (Latest LTS)
+* Java 17 (LTS)
+* Java 21 (Latest LTS)
 
 > 💡 **Note**  
 > **LTS (Long Term Support)** versions receive long-term updates, security patches, and bug fixes.  
@@ -141,6 +142,7 @@ Also verify the compiler:
 ```bash
 javac -version
 ```
+
 ---
 
 # Installing Git
@@ -187,6 +189,7 @@ Check configuration:
 ```bash
 git config --list
 ```
+
 ---
 
 # Installing IntelliJ IDEA
@@ -211,8 +214,8 @@ Run the installer and follow the setup wizard.
 
 Recommended options during installation:
 
-- Add launchers to PATH
-- Add desktop shortcut
+* Add launchers to PATH
+* Add desktop shortcut
 
 ## Step 3 – Launch IntelliJ
 
@@ -245,9 +248,9 @@ HelloWorld.java
 Example code:
 
 ```java
-public class HelloWorld {
+public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String\[] args) {
 
         System.out.println("Java Fullstack Journey Begins!");
 
@@ -263,8 +266,8 @@ Expected output:
 ```markdown
 Java Fullstack Journey Begins!
 ```
----
 
+---
 
 ## Day 0 Summary
 
