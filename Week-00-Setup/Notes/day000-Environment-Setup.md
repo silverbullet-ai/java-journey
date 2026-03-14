@@ -74,67 +74,172 @@ Java Code (.java) → Compiler (javac) → Bytecode (.class) → JVM → Machine
 ```
 ---
 
-## Installing Java
+# Required Tools
 
-Recommended versions for development:
+For this journey we need the following tools:
 
-* **Java 17 (LTS)**
-* **Java 21 (Latest LTS)**
+- Java (JDK)
+- Git
+- IntelliJ IDEA
+- A terminal or command prompt
 
-### Verify Installation
+---
 
-Run the following command in the terminal:
+# Installing Java (JDK)
 
-``` bash
+Java Development Kit (JDK) is required to write and run Java programs.
+
+Recommended versions:
+
+- Java 17 (LTS)
+- Java 21 (Latest LTS)
+
+## Step 1 – Download Java
+
+Visit:
+
+https://adoptium.net/
+
+Download:
+
+OpenJDK 17 or OpenJDK 21 depending on your preference.
+
+---
+
+## Step 2 – Install Java
+
+Run the installer and follow the installation wizard.
+
+After installation, Java will be added to your system.
+
+---
+
+## Step 3 – Verify Installation
+
+Open terminal or command prompt and run:
+
+```bash
 java -version
 ```
 
 Example output:
 
 ```bash
-java version "21.0.x"
+openjdk version "21.x.x"
 ```
 
+Also verify the compiler:
+
+```bash
+javac -version
+```
 ---
 
-## IntelliJ IDEA Setup
+# Installing Git
 
-IntelliJ IDEA is a powerful IDE for Java development.
+Git is used for version control and tracking changes in projects.
+
+## Step 1 – Download Git
+
+Visit:
+
+https://git-scm.com/downloads
+
+Download the installer for your operating system.
+
+## Step 2 – Install Git
+
+Run the installer and keep the default settings unless you know what you are changing.
+
+## Step 3 – Verify Installation
+
+Run:
+
+```bash
+git --version
+```
+
+Example output:
+
+```markdown
+git version 2.x.x
+```
+
+## Configure Git
+
+Set your username and email:
+
+```bash
+git config --global user.name "Silver Bullet"
+git config --global user.email "aahishsingh2000@outlook.com"
+```
+
+Check configuration:
+
+```bash
+git config --list
+```
+---
+
+# Installing IntelliJ IDEA
+
+IntelliJ IDEA is one of the most popular IDEs for Java development.
+
+We will use IntelliJ IDEA Community Edition.
+
+## Step 1 – Download IntelliJ IDEA
+
+Visit:
+
+https://www.jetbrains.com/idea/download/
+
+Download:
+
+IntelliJ IDEA Community Edition
+
+## Step 2 – Install IntelliJ
+
+Run the installer and follow the setup wizard.
+
+Recommended options during installation:
+
+- Add launchers to PATH
+- Add desktop shortcut
+
+## Step 3 – Launch IntelliJ
+
+Open IntelliJ IDEA and create a new project.
 
 Steps:
 
-1. Install IntelliJ IDEA Community Edition
-2. Create a new project
-3. Select Java project
-4. Choose installed JDK
-5. Create a main class
+1. Click New Project
+2. Select Java
+3. Choose installed JDK
+4. Create project
 
-Example structure:
+Example project structure:
 
 ```markdown
 project-name
-├─ src
-│   └─ Main.java
-└─ .idea
+ ├── src
+ │   └── Main.java
+ └── .idea
 ```
-
----
 
 ## First Java Program
 
 Create a file called:
 
-
 ```markdown
 HelloWorld.java
 ```
 
-Example program:
+Example code:
 
-``` java
+```java
 public class HelloWorld {
 
-    public static void main(String\\\[] args) {
+    public static void main(String[] args) {
 
         System.out.println("Java Fullstack Journey Begins!");
 
@@ -143,33 +248,15 @@ public class HelloWorld {
 }
 ```
 
-Run the program to confirm that Java is working correctly.
+Run the program.
 
 Expected output:
 
-```bash
+```markdown
 Java Fullstack Journey Begins!
 ```
-
 ---
 
-## Git Setup
-
-Git will be used for version control and tracking progress.
-
-Verify Git installation:
-
-```bash
-git --version
-```
-
-Configure Git username and email:
-
-```bash
-git config --global user.name "Silver Bullet"
-git config --global user.email "aahishsingh2000@outlook.com"
-```
----
 
 ## Day 0 Summary
 
