@@ -82,3 +82,13 @@ Represents a process or workflow in a system (used in industries and business pr
 - Manufacturing processes
 - Business workflows
 - Decision-making systems
+
+---
+
+## Practice Questions
+
+1. Draw a flowchart to find the **sum of two numbers**.
+
+2. Draw a flowchart to check whether a number is **positive or negative**.
+
+3. Draw a flowchart to find the **largest of two numbers**.
