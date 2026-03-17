@@ -110,10 +110,10 @@ END
 
 ## Practice Pseudocode
 
-### 1. Sum of Two Numbers
+1. Write the pseudocode to find the **sum of two numbers**.
 
-### 2. Check Positive or Negative
+2. Write the pseudocode to check whether a number is **positive or negative**.
 
-### 3. Find Largest of Two Numbers
+3. Write the pseudocode to find the **largest of two numbers**.
 
 
