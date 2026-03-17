@@ -100,15 +100,66 @@ Example:
 ### 1. Bubble Sort
 Repeatedly compares adjacent elements and swaps them if they are in the wrong order.
 
+```markdown
+Step 1: Start  
+Step 2: Input array A of size n  
+Step 3: Repeat (n - 1) times  
+Step 4:     For i = 0 to n - 2  
+Step 5:         If A[i] > A[i + 1]  
+Step 6:             Swap A[i] and A[i + 1]  
+Step 7:     End For  
+Step 8: End Repeat  
+Step 9: Output sorted array  
+Step 10: End
+```
+
 ---
 
 ### 2. Linear Search
 Checks each element one by one until the target element is found.
 
+```markdown
+Step 1: Start  
+Step 2: Input array A of size n  
+Step 3: Input target element T  
+Step 4: For i = 0 to n - 1  
+Step 5:     If A[i] == T  
+Step 6:         Output "Element found at index i"  
+Step 7:         Stop  
+Step 8: End For  
+Step 9: Output "Element not found"  
+Step 10: End
+```
+
 ---
 
 ### 3. Binary Search
 Searches a sorted list by repeatedly dividing the search space in half.
+
+```markdown
+Step 1: Start  
+Step 2: Input sorted array A of size n  
+Step 3: Input target element T  
+Step 4: Set low = 0, high = n - 1  
+
+Step 5: While low <= high  
+Step 6:     mid = (low + high) / 2  
+
+Step 7:     If A[mid] == T  
+Step 8:         Output "Element found at index mid"  
+Step 9:         Stop  
+
+Step 10:    Else If A[mid] < T  
+Step 11:        low = mid + 1  
+
+Step 12:    Else  
+Step 13:        high = mid - 1  
+
+Step 14: End While  
+
+Step 15: Output "Element not found"  
+Step 16: End
+```
 
 ---
 
@@ -140,32 +191,6 @@ Techniques:
 
 ### 1. Algorithm to Find Sum of Two Numbers
 
-1. Start  
-2. Input two numbers A and B  
-3. Calculate Sum = A + B  
-4. Display Sum  
-5. End  
-
----
-
 ### 2. Algorithm to Check Positive or Negative
 
-1. Start  
-2. Input number N  
-3. If N ≥ 0  
-   - Print "Positive"  
-4. Else  
-   - Print "Negative"  
-5. End  
-
----
-
 ### 3. Algorithm to Find Largest of Two Numbers
-
-1. Start  
-2. Input two numbers A and B  
-3. If A > B  
-   - Print "A is largest"  
-4. Else  
-   - Print "B is largest"  
-5. End  
