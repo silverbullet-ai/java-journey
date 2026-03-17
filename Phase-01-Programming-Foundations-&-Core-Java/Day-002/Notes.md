@@ -189,8 +189,8 @@ Techniques:
 
 ## Practice Algorithms
 
-### 1. Algorithm to Find Sum of Two Numbers
+1. Write the algorithm to find the **sum of two numbers**.
 
-### 2. Algorithm to Check Positive or Negative
+2. Write the algorithm to check whether a number is **positive or negative**.
 
-### 3. Algorithm to Find Largest of Two Numbers
+3. Write the algorithm to find the **largest of two numbers**.
