@@ -73,7 +73,7 @@ END
 
 ## Example of Pseudocode
 
-Problem: Check whether a number is even or odd
+### Problem1: Check whether a number is even or odd
 
 ```
 START
@@ -84,8 +84,17 @@ ELSE
     PRINT "Odd"
 END IF
 END
-```
+```  
 
+### Problem2: Calculate the area of rectangle
+
+```
+START
+INPUT length, width
+SET area = length * width
+PRINT area
+END
+```
 ---
 
 ## Best Practices for Writing Pseudocode
