@@ -149,19 +149,19 @@ int num = sc.nextInt();
 ## 8. Operators
 
 ### Arithmetic Operators
-- + 
-- - 
-- * 
-- / 
-- %
+- (+) 
+- (-) 
+- (*) 
+- (/) 
+- (%)
 
 👉 Used for calculations
 
 ### Relational Operators
-- == 
-- != 
-- > < 
-- >= <=
+- (==) 
+- (!=) 
+- (> <) 
+- (>= <=)
 
 👉 Used for comparison
 
