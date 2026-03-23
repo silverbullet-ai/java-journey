@@ -160,8 +160,8 @@ int num = sc.nextInt();
 ### Relational Operators
 - (==) 
 - (!=) 
-- (> <) 
-- (>= <=)
+- (>, <) 
+- (>=, <=)
 
 👉 Used for comparison
 
