@@ -1,14 +1,12 @@
-# Day 005 — Looping Statements
+# Day 5 – Looping Statements
 
 ## Objective
-Understand different types of loops and how to control program flow using iteration.
+To understand looping constructs in Java, including nested loops, and use them to execute repetitive tasks efficiently.
 
 ## Topics Covered
-- For loop and nested loops
-- For-each loop
-- While loop and do-while loop
-- Infinite loops
-- Labelled loops
-- Break and continue statements
-
-For detailed explanations, refer to **notes.md**.
+- Introduction to Loops
+- Types of Loops (for, while, do-while)
+- Nested Loops
+- Infinite Loops
+- break Statement
+- continue Statement
