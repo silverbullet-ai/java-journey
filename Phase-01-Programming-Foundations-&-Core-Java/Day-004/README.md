@@ -1,17 +1,14 @@
-# Day 4 — Java Fundamentals & Conditional Statements
+# Day 4 – Java Fundamentals & Conditional Statements
 
 ## Objective
-Understand Java basics, development environment, and conditional logic.
+To understand the core fundamentals of Java, including basic syntax, data types, variables, input handling, and decision-making using conditional statements.
 
 ## Topics Covered
-- Introduction to Java
-- JDK, JVM, JRE, JIT
-- Data types and variables
-- Type casting
-- IntelliJ IDEA basics
-- First Java program
-- Scanner class
-- Conditional statements (if, if-else, switch)
-- Operators (arithmetic, relational, logical)
-
-For detailed explanations, refer to **notes.md**.
+- Overview of Java (JDK, JVM, JRE, JIT)
+- Data Types (Primitive & Non-Primitive)
+- Variables and Syntax
+- Typecasting (Implicit & Explicit)
+- Writing First Java Program
+- Scanner Class (User Input)
+- Conditional Statements (if, if-else, switch)
+- Operators (Arithmetic, Relational, Logical)
