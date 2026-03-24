@@ -1,4 +1,4 @@
-# Day 007 – Arrays and Methods
+# Day 7 – Arrays and Methods
 
 ---
 
