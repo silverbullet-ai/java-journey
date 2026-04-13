@@ -20,14 +20,20 @@ int age = 21;
 ## Data Types
 
 ### 1. Primitive Data Types
+
+```markdown
 - int → stores integers (e.g., 10)
 - float → stores decimal numbers (requires 'f')
 - double → stores larger decimal values
 - char → stores a single character ('A')
 - boolean → true or false
+```
 
 ### 2. Non-Primitive Data Types
+
+```markdown
 - String → sequence of characters (e.g., "Aahish")
+```
 
 ---
 
@@ -37,8 +43,8 @@ int age = 21;
 Java requires declaring the data type before using a variable.
 
 ### Float vs Double
-- float → less precision (requires 'f')
-- double → more precise (default for decimals)
+- `float` → less precision (requires 'f')
+- `double` → more precise (default for decimals)
 
 Example:
 
