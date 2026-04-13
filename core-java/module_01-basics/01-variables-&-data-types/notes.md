@@ -4,10 +4,16 @@
 Variables are used to store data in Java.
 
 Syntax:
+
+```java
 datatype variableName = value;
+```
 
 Example:
+
+```java
 int age = 21;
+```
 
 ---
 
@@ -35,8 +41,11 @@ Java requires declaring the data type before using a variable.
 - double → more precise (default for decimals)
 
 Example:
+
+```java
 float num = 5.5f;
 double num2 = 5.5;
+```
 
 ### String is Not Primitive
 String is actually an object, not a primitive data type.
