@@ -37,28 +37,37 @@ int num = sc.nextInt();
 ## Operators in Java
 
 ### 1. Arithmetic Operators
+
+```markdown
 +  → addition  
 -  → subtraction  
 *  → multiplication  
 /  → division  
 %  → modulus (remainder)
+```
 
 ---
 
 ### 2. Relational Operators
+
+```markdown
 ==  → equal  
 !=  → not equal  
 >   → greater  
 <   → smaller  
 >=  → greater or equal  
 <=  → smaller or equal  
+```
 
 ---
 
 ### 3. Logical Operators
+
+```markdown
 && → AND  
 || → OR  
 !  → NOT  
+```
 
 ---
 
