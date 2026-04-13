@@ -1,0 +1,13 @@
+# Compiled Java files
+*.class
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
