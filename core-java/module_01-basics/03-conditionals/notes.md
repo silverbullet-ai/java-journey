@@ -7,30 +7,39 @@ Conditionals allow a program to make decisions based on conditions.
 
 ## if Statement
 
-Syntax:
-if (condition) {
+Syntax:  
+
+```java
+if (condition) {  
     // code
 }
+```
 
 Example:
+
+```java
 if (age >= 18) {
     System.out.println("Eligible to vote");
 }
+```
 
 ---
 
 ## if-else Statement
 
+```java
 if (condition) {
     // true block
 } else {
     // false block
 }
+```
 
 ---
 
 ## else-if Ladder
 
+```java
 if (condition1) {
     // code
 } else if (condition2) {
@@ -38,16 +47,19 @@ if (condition1) {
 } else {
     // default
 }
+```
 
 ---
 
 ## Nested if
 
+```java
 if (condition1) {
     if (condition2) {
         // code
     }
 }
+```
 
 ---
 
@@ -61,6 +73,7 @@ if (condition1) {
 
 ## Example
 
+```java
 int marks = 75;
 
 if (marks >= 90) {
@@ -70,6 +83,7 @@ if (marks >= 90) {
 } else {
     System.out.println("Grade C");
 }
+```
 
 ---
 
