@@ -13,47 +13,61 @@ They help in:
 
 ## Syntax
 
+```java
 returnType methodName(parameters) {
     // code
     return value;
 }
+```
 
 ---
 
 ## Example
 
+```java
 public static void greet() {
     System.out.println("Hello!");
 }
+```
 
 ---
 
 ## Calling a Method
 
+```java
 greet();
-
+```
 ---
 
 ## Types of Methods
 
 ### 1. Without Parameters
+
+```java
 public static void greet() {
     System.out.println("Hello!");
 }
+```
 
 ---
 
 ### 2. With Parameters
+
+```java
 public static void greetUser(String name) {
     System.out.println("Hello " + name);
 }
+```
 
 ---
 
 ### 3. With Return Type
+
+```java
 public static int add(int a, int b) {
     return a + b;
 }
+```
 
 ---
 
