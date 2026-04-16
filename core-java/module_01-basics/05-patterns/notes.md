@@ -31,10 +31,12 @@ To solve patterns:
 
 ## Example Pattern
 
+```
 *
 * *
 * * *
 * * * *
+```
 
 Logic:
 Row 1 → 1 star  
