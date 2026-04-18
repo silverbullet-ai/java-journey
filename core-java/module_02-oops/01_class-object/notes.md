@@ -16,10 +16,13 @@ It helps in:
 A class is a blueprint or template.
 
 Example:
+
+```java
 class Student {
     String name;
     int age;
 }
+```
 
 ---
 
@@ -28,14 +31,19 @@ class Student {
 An object is an instance of a class.
 
 Example:
+
+```java
 Student s1 = new Student();
+```
 
 ---
 
 ## Accessing Data
 
+```java
 s1.name = "Aahish";
 s1.age = 21;
+```
 
 ---
 
