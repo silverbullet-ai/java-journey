@@ -9,7 +9,7 @@ public class ClassDemo {
         Student s1 = new Student();
 
         s1.name = "Aahish";
-        s1.age = 21;
+        s1.age = 23;
 
         System.out.println("Name: " + s1.name);
         System.out.println("Age: " + s1.age);
