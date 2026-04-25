@@ -18,14 +18,27 @@ Encapsulation means binding data and methods together and restricting direct acc
 ## Access Modifiers
 
 ### private
-Accessible only within the same class
+	Accessible only within the same class
 
-### default
-Accessible within the same package
+### default (no keyword)
+	Accessible within the same package only
+
+### protected
+	Accessible within the same package and also in subclasses (even in different packages)
 
 ### public
-Accessible everywhere
+	Accessible everywhere
 
+---
+
+## Access Summary
+
+| Modifier   | Same Class | Same Package | Subclass (Different Package) | Other Packages |
+|------------|-----------|--------------|------------------------------|----------------|
+| private    | ✅        | ❌           | ❌                           | ❌             |
+| default    | ✅        | ✅           | ❌                           | ❌             |
+| protected  | ✅        | ✅           | ✅                           | ❌             |
+| public     | ✅        | ✅           | ✅                           | ✅             |
 ---
 
 ## Getters and Setters
