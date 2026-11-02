@@ -10,6 +10,8 @@ The goal is to build a strong foundation in Java, develop problem-solving skills
 
 Repository Structure
 
+
+```
 java-journey/
 │
 ├── core-java/
@@ -34,7 +36,7 @@ java-journey/
 └── applied-java/
     ├── mini-projects/
     └── system-projects/
-
+```
 ---
 
 Learning Roadmap
