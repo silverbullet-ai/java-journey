@@ -91,10 +91,11 @@ topic/
 ```
 Documentation Standards
 
-File / Directory| Purpose
-"README.md"| Topic overview, learning objectives, and summary
-"notes.md"| Detailed explanations, concepts, and important notes
-"src/"| Java programs, practical examples, and exercises
+| File / Directory | Description |
+|---|---|
+| `README.md` | Provides an overview of the topic, learning objectives, key concepts, and progress summary. |
+| `notes.md` | Contains detailed explanations, theoretical concepts, syntax, and important notes. |
+| `src/` | Contains Java source files, code examples, implementations, and practice exercises. |
 
 ---
 
