@@ -79,6 +79,7 @@ Repository Organization
 
 Each topic follows a consistent structure to maintain readability, accessibility, and ease of navigation.
 
+```
 topic/
 │
 ├── README.md
@@ -87,7 +88,7 @@ topic/
     ├── Example01.java
     ├── Example02.java
     └── Practice.java
-
+```
 Documentation Standards
 
 File / Directory| Purpose
