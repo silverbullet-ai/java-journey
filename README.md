@@ -8,6 +8,24 @@ The goal is to build a strong foundation in Java, develop problem-solving skills
 
 ---
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Status-In%20Progress-blue?style=for-the-badge" alt="Status"/>
+  <img src="https://img.shields.io/badge/Learning-Core%20Java%20%7C%20DSA%20%7C%20Projects-purple?style=for-the-badge" alt="Learning"/>
+  <img src="https://img.shields.io/badge/IDE-IntelliJ%20IDEA-black?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA"/>
+  <img src="https://img.shields.io/badge/Version%20Control-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/License-Educational-green?style=for-the-badge" alt="License"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/silverbullet-ai/Java-Journey?style=flat-square&logo=github" alt="Repository Size"/>
+  <img src="https://img.shields.io/github/last-commit/silverbullet-ai/Java-Journey?style=flat-square&logo=git" alt="Last Commit"/>
+  <img src="https://img.shields.io/github/commit-activity/m/silverbullet-ai/Java-Journey?style=flat-square" alt="Commit Activity"/>
+  <img src="https://img.shields.io/github/stars/silverbullet-ai/Java-Journey?style=flat-square&logo=github" alt="GitHub Stars"/>
+</p>
+
+---
+
 Repository Structure
 
 
